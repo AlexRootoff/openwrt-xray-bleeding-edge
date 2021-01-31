@@ -1,8 +1,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=openwrt-xray-bleeding-edge
-PKG_VERSION:=c13b8ec9bb9da944be5abdcba4933ceb7d22b1a3
-PKG_RELEASE:=3
+PKG_VERSION:=523c416bb56b3e2ffe101e7c02a323cfa770bfda
+PKG_RELEASE:=1
 
 PKG_LICENSE:=MPLv2
 PKG_LICENSE_FILES:=LICENSE
@@ -10,7 +10,7 @@ PKG_MAINTAINER:=yichya <mail@yichya.dev>
 
 PKG_SOURCE:=Xray-core-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/XTLS/Xray-core/tar.gz/${PKG_VERSION}?
-PKG_HASH:=399df4b79dd1e4c1575b398e8a1375c89b4f863738233c7ab78491d802619b63
+PKG_HASH:=9475d65ec436af225820bbd1cf4934c43e73e56d8a2e90b3be42bb9d761fae68
 
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
